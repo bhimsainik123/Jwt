@@ -187,13 +187,12 @@ def process_token(uid, password):
                 mssg= {
                     "status_code":response.status_code,
                     "server":region ,
-                    "credits": "https://great.thug4ff.com/",
                     "token": token,
                     "token_access" : game_data.access_token,
                     "open_id":game_data.open_id,
                     "account_id":account_id,
                     "nickname":nickname,
-                   
+
                     "error":False,
                     "exp":exp,
                     "level":level,
