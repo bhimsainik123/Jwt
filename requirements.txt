@@ -6,6 +6,7 @@ colorama
 protobuf
 PyJWT
 hypercorn
-dotenv
+python-dotenv
 protobuf-decoder
+urllib3
 pymongo
