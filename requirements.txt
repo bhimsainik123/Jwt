@@ -1,12 +1,5 @@
-Flask[async]
-Flask-Caching
-requests
-pycryptodome
-colorama
-protobuf
-PyJWT
-hypercorn
-python-dotenv
-protobuf-decoder
-urllib3
-pymongo
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+httpx>=0.28,<1
+pycryptodome>=3.20,<4
+protobuf>=5,<7
